@@ -14,8 +14,27 @@
 </head>
 <body style="font-family: Unica One">
 
+<style type="text/css">
+.img-hover-zoom {
+  height: 100%; 
+  overflow: hidden; 
+}
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top justify-content-center">
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+</style>
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#more">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse justify-content-center" id="more">
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="index.php">HOME</a>
@@ -36,13 +55,14 @@
       <a class="nav-link" href="zenbook.php">ZENBOOK</a>
     </li>
   </ul>
+</div>
 </nav>
-
-<div class="container-fluid" ><center>
+<br><br>
+<div class="container-fluid img-hover-zoom" ><center>
 	<img
     src="img/Swift-2.png"
     alt="swift"
-    style="padding-top: 5vh; max-height: 80vh; max-width: 80vh;"
+    style="padding-top: 5vh; max-height: 40%; max-width: 40%; height: 50%; width: 50%;"
   />
 
 </center></div>
@@ -68,20 +88,19 @@
 
 
 <div class="container">
-	<div class="row">
-		<div class="col-sm-6" style="text-align: right;">
+
+		<div class="col-sm-12" style="text-align: center;">
 			<h1>PRICING</h1>
 			<h3>42,900 BATH</h3>
 		</div>
-		<div class="col-sm-6" style="padding-top: 3vh">
+		<div class="col-sm-12" style="padding-top: 3vh; text-align: center;">
 			<button type="button" style="font-family: Kanit" class="btn btn-primary">Purchase</button>
 		</div>
-	</div>
+
 </div>
 <br><br>
 &nbsp;
-<div class="container-fluid" style="background-color: #262626; height: 5vh;">
-&nbsp;
+<footer style="background-color: #262626"><br><br></footer>
 </div>
 </body>
 </html>

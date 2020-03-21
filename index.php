@@ -9,13 +9,18 @@
   	<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8; " />
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>YCC2</title>
 </head>
 <body style="font-family: Unica One">
 
+<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top justify-content-center">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#more">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+	<div class="collapse navbar-collapse justify-content-center" id="more">
   <ul class="navbar-nav">
     <li class="nav-item active">
       <a class="nav-link" href="#" style="size: 42px;"><b>HOME</b></a>
@@ -36,30 +41,29 @@
       <a class="nav-link" href="zenbook.php">ZENBOOK</a>
     </li>
   </ul>
+	</div>
+  
+
 </nav>
 <div style="font-family: Unica One; padding-top: 8vh"><center>
 	<p style="color:orange; font-size: 3vh;">NEW</p>
 	<h2><b>MACBOOK PRO</b></h2><br>
 	<h5>PROLONG IN THE DARK.</h5><br>
 </center></div>
-<div class="container-fluid"  style="
-	background-image: url('img/macbookpro-2.png');
+<div class="container">
+	<center><img  src="img/macbookpro-2.png" style="
 	padding-top: 5vh;
 	padding: all;
-	width: 150vh;
-	height: 50vh;
-	max-width: 100vh;
-	max-height: 50vh;
-	background-size: cover;
-	background-repeat: no-repeat;
+	width: 100%;
+	height: 50%;
+	max-width: 100%;
+	max-height: 50%;
 	"
 	onclick="location.href='macbookpro.php';" 
 	tabIndex="0"
-	><center>
-
-</center></div>
+	/></center></div>
 &nbsp;
-<div class="container" style="background-color: #262626; height: 1vh;">
+<div class="container" style="background-color: #262626; height: 0.5vh; border-radius: 3px;">
 &nbsp;
 </div>&nbsp;
 	<div class="container justify-content-center" style="
@@ -81,7 +85,7 @@
 	</h5>
 	</div>
 	&nbsp;
-<div class="container" style="background-color: #262626; height: 1vh;">
+<div class="container" style="background-color: #262626; height: 0.5vh; border-radius: 3px;">
 &nbsp;
 </div>&nbsp;
 
@@ -104,7 +108,7 @@
 	</h5>
 	</div>
 &nbsp;
-<div class="container" style="background-color: #262626; height: 1vh;">
+<div class="container" style="background-color: #262626; height: 0.5vh; border-radius: 3px;">
 &nbsp;
 </div>&nbsp;
 	<div class="container justify-content-center" style="
@@ -112,8 +116,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
-	padding-top: 28vh;
-	padding-bottom: 42vh;
+	padding-top: 3vh;
+	padding-bottom: 67vh;
 	"
 	onclick="location.href='xps.php';" 
 	tabIndex="0"
@@ -126,7 +130,7 @@
 	</h5>
 	</div>
 	&nbsp;
-<div class="container" style="background-color: #262626; height: 1vh;">
+<div class="container" style="background-color: #262626; height: 0.5vh; border-radius: 3px;">
 &nbsp;
 </div>&nbsp;
 	<div class="container justify-content-center" style="
@@ -134,8 +138,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
-	padding-top: 10vh;
-	padding-bottom: 60vh;
+	padding-top: 5vh;
+	padding-bottom: 65vh;
 	"
 	onclick="location.href='zenbook.php';" 
 	tabIndex="0"
@@ -148,8 +152,7 @@
 	</h5>
 	</div>
 	&nbsp;
-<div class="container-fluid" style="background-color: #262626; height: 5vh;">
-&nbsp;
+<footer style="background-color: #262626"><br><br></footer>
 </div>
 </body>
 </html>
